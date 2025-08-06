@@ -15,6 +15,27 @@
     justify-content: space-between;
 }
 
+.navbar .navbar-brand img {
+    transition: all 1s ease;
+}
+
+.navbar .navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar .nav-link.navegador-item {
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .nav-item {
+    margin-left: 20px;
+}
+
+.navbar .nav-link.navegador-item:hover {
+    transform: scale(1.1);
+}
+
 /* Seccion Hero */
 .hero {
     background-color: #f5f6f7;
@@ -294,7 +315,8 @@
 
 .contacto .descripcion {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .contacto button {
