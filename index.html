@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--METADATA-->
+        <meta charset="UTF-8">
+        <meta name="author" content="Victor Villagran Abarca">
+        <meta name="description" content="Portafolio de desarrollo web de Victor Villagran Abarca">
+        <meta name="keywords" content="HTML, CSS, JavaScript, React">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--TITLE-->
+        <title>Victor VA | Desarrollador Web Back-End</title>
+
+        <!--FAVICON-->
+        <link rel="icon" type="image/x-icon" href="/img/iconos/iconoVVA.png">
+
+        <!--BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+        <!-- Iconos Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+        <!--STYLES-->
+        <link href="style.css" rel="stylesheet">
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Barra de navegacion-->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/iconos/iconoVVA.png" width="50" alt="Logo de la pagina web">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos-recientes">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Seccion Hero-->
+         <section class="hero align-items-strech">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <img class="hero-imagen-dev" src="img/fotoVVA.PNG" alt="Foto de Victor Villagran Abarca">
+                <h1>Hola, soy Victor Villagran Abarca</h1>
+                <h2>Ingeniero en sistemas y desarrollador web</h2>
+            </div>
+            <div class="hero-inferior d-flex flex-column align-items-center">
+                <div class="descarga-cv">
+                    <a href="assets/Villagran-Abarca-Victor-CV.pdf" download>
+                        <button class="button">
+                            Descargar CV
+                            <i class="bi bi-file-earmark-arrow-down-fill"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="encuentrame-en d-flex justify-content-center align-items-center">
+                    <a href="https://github.com/Victor-V-A" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/victor-villagran-abarca-a9134b376/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/devvictorva/" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+         </section>
+
+        <!-- Sobre mi -->
+         <section id="sobre-mi" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+                <h2 class="seccion-titulo">Conoceme</h2>
+                <p class="seccion-texto">
+                    Soy ingeniero en sistemas con una gran pasión por el desarrollo web. 
+                    Me motiva participar en proyectos donde pueda contribuir con soluciones 
+                    funcionales, escalables y duraderas. Me interesa seguir aprendiendo, 
+                    perfeccionar mis habilidades y crecer constantemente tanto a nivel 
+                    técnico como profesional.
+                </p>
+            </div>
+         </section>
+
+        <!-- Experiencia -->
+          <section class="experiencia seccion-clara">
+            <div class="container text-center">
+                <div class="row">
+                    <!-- Mi objetivo-->
+                     <div class="columna col-12 col-md-4">
+                        <i class="bi bi-rocket-takeoff-fill"></i>
+                        <p class="experiencia-titulo">Objetivo</p>
+                        <p>
+                            Especializarme en el desarrollo web full stack, aplicando los 
+                            conocimientos adquiridos durante mi formación. Busco perfeccionar 
+                            mis habilidades actuales, incorporar nuevas tecnologías y ofrecer 
+                            soluciones óptimas, sostenibles y adaptadas a las necesidades de 
+                            cada proyecto.
+                        </p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Desarrollo Web</span>
+                            <span class="badge text-bg-primary">Full Stack</span>
+                        </div>
+                     </div>
+
+                     <!-- Perfil -->
+                      <div class=" columna col-12 col-md-4">
+                        <i class="bi bi-person"></i>
+                        <p class="experiencia-titulo">Perfil</p>
+                        <p>
+                            Me caracterizo por ser una persona resiliente, comprometida y con 
+                            un fuerte deseo de crecimiento profesional. Disfruto trabajar en 
+                            equipo, colaborar activamente y aportar al cumplimiento de objetivos 
+                            comunes. Mi enfoque es contribuir a lograr resultados de calidad que 
+                            generen un beneficio mutuo.
+                        </p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Resiliencia</span>
+                            <span class="badge text-bg-primary">Compromiso</span>
+                            <span class="badge text-bg-primary">Trabajo en Equipo</span>
+                        </div>
+                      </div>
+                    <!-- Preparacion -->
+                     <div class="columna col-12 col-md-4">
+                        <i class="bi bi-laptop"></i>
+                        <p class="experiencia-titulo">Preparacíon</p>
+                        <p>
+                            Actualmente me estoy especializando en el desarrollo back-end, con 
+                            un enfoque en la creación de API REST y microservicios. Este proceso 
+                            me ha permitido fortalecer mis conocimientos en arquitectura de software, 
+                            buenas prácticas y tecnologías modernas que impulsan el desarrollo web eficiente.
+                        </p>
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-primary">Udemy</span>
+                            <span class="badge text-bg-primary">Back-End</span>
+                            <span class="badge text-bg-primary">Spring</span>
+                            <span class="badge text-bg-primary">Java</span>
+                        </div>
+                     </div>
+                </div>
+            </div>
+          </section>
+
+        <!-- Tecnologias que uso -->
+         <section class="tecnologias-que-uso seccion-oscura d-flex align-items-center justify-content-center">
+            <h2 class="seccion-titulo texto-blanco">Tecnologias que uso:</h2>
+            <div class="tecnologias-fila-1">
+                <div class="contenedor-img">
+                    <img src="img/iconos/java_226777.png" alt="Icono java">
+                </div>
+                <div class="contenedor-img">
+                    <img src="img/iconos/js_5968292.png" alt="Icono JavaScript">
+                </div>
+                <div class="contenedor-img">
+                    <img src="img/iconos/html-5_174854.png" alt="Icono HTML5">
+                </div>
+                <div class="contenedor-img">
+                    <img src="img/iconos/css-3_732190.png" alt="Icono CCS3">
+                </div>
+            </div>
+            <div class="tecnologias-fila-2">
+                <div class="contenedor-img">
+                    <img src="img/iconos/bootstrap_5968672.png" alt="Icono Bootstrap">
+                </div>
+                <div class="contenedor-img">
+                    <img src="img/iconos/database_12658413.png" alt="Icono Mysql">
+                </div>
+                <div class="contenedor-img">
+                    <img src="img/iconos/postgre_5968342.png" alt="Icono PostgreSQL">
+                </div>
+                <div class="contenedor-img">
+                    <img src="img/iconos/social_15466163.png" alt="Icono Git">
+                </div>
+            </div>
+         </section>
+
+        <!-- Proyectos -->
+            <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+             <h2 class="seccion-titulo texto-negro">Mis Proyectos</h2>
+             <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+            
+             <!-- Galeria de proyectos -->
+             <div class="container text-center proyectos-contenedor">
+                <div class="row">
+                    <!-- Proyecto 1 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="img/portafolioVVA2.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Portafolio personal</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/Victor-V-A/Portafolio_Web" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://devvictorvillagran.site/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="img/proyecto2.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 2</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="img/proyecto3.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 3</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="img/proyecto4.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 4</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="img/proyecto5.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 5</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 6 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="proyecto">
+                            <img src="img/proyecto6.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p>Proyecto 6</p>
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <a href="https://github.com/Victor-V-A" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="btn btn-info">
+                    Ver mas proyectos
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+                </button>
+             </a>
+           </section>
+        
+        <!-- Contacto -->
+        <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div class="container text-center rectangulo d-flex justify-content-evenly">
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Hablemos!
+                        </div>
+                        <div class="col-12 col-md-4 decripcion">
+                            Contáctame y trabajemos juntos.
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <a href="mailto:victor.villagran.abarca23@gmail.com">
+                                <button type="button">
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pie de pagina (footer) -->
+        <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-logo" src="img/iconos/iconoVVA-white.png" alt="Logo de VVA">
+            <p class="footer-texto text-center">Aprendo y creo todos los dias.<br> Creemos un proyecto juntos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="https://github.com/Victor-V-A" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/victor-villagran-abarca-a9134b376/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/devvictorva/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://wa.me/5215523089560" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="mailto:victor.villagran.abarca23@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-envelope"></i>
+                </a>
+                
+            </div>
+
+            <div class="derechos-de-autor">
+                Creado por Victor Villagran Abarca (2025) &#169;
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </body>
+</html>
